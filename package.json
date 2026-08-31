@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engine": {
+    "node": "22.17.1"
+  },
+  "description": "A basic http server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vni5104/basic-http-class-example.git"
+  },
+  "author": "Vicky",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vni5104/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/vni5104/basic-http-class-example#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.11.0"
+  }
+}
